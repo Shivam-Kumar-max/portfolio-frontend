@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="py-4 text-center" style={{ backgroundColor: '#1e1e2f', color: '#cfcfe8' }}>
-      <div className="container">
-        <p className="mb-0 small">
-          &copy; {new Date().getFullYear()} Built with React, Vite &amp; Spring Boot.
-        </p>
+    <footer className="site-footer">
+      <div className="container footer-inner">
+        <span className="footer-brand">Portfolio<span style={{ color: 'var(--brand)' }}>.</span></span>
+        <p>© {new Date().getFullYear()} Built with care. All rights reserved.</p>
+        <a href="#home" className="text-decoration-none">Back to top ↑</a>
       </div>
     </footer>
   )
